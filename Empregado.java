@@ -15,7 +15,7 @@ public class Empregado {
 
     void aumentarSalario() {
         if (this.anosContratado > 10) {
-            this.salario = this.salario *= 1.10;
+            this.salario = this.salario * 1.10;
         }
     }
 }
