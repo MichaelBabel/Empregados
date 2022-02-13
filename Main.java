@@ -13,18 +13,18 @@ public class Main {
 
         NumberFormat real = NumberFormat.getCurrencyInstance();
 
-        System.out.println("Nome: " + empregado1.nome);
-        System.out.println("Idade: " + empregado1.idade);
-        System.out.println("Cidade: " + empregado1.localidade);
-        System.out.println("Salário: " + real.format(empregado1.salario));
-        System.out.println("Anos contratado: " + empregado1.anosContratado);
+        System.out.println("Nome: " + empregado1.getNome());
+        System.out.println("Idade: " + empregado1.getIdade());
+        System.out.println("Cidade: " + empregado1.getLocalidade());
+        System.out.println("Salário: " + real.format(empregado1.getSalario()));
+        System.out.println("Anos contratado: " + empregado1.getAnosContratado());
 
         System.out.println();
 
-        System.out.println("Nome: " + empregado2.nome);
-        System.out.println("Idade: " + empregado2.idade);
-        System.out.println("Cidade: " + empregado2.localidade);
-        System.out.println("Salário: " + real.format(empregado2.salario));
-        System.out.println("Anos contratado: " + empregado2.anosContratado);
+        System.out.println("Nome: " + empregado2.getNome());
+        System.out.println("Idade: " + empregado2.getIdade());
+        System.out.println("Cidade: " + empregado2.getLocalidade());
+        System.out.println("Salário: " + real.format(empregado2.getSalario()));
+        System.out.println("Anos contratado: " + empregado2.getAnosContratado());
     }
 }
